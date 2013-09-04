@@ -2,24 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jsoup-1.7.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/mysql-connector-java-5.0.5-bin.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FetchArticlesUrl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestMysql.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TianYaHotAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jsoup_1_7_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/commons-codec-1.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fluent-hc-4.2.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/httpclient-4.2.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/httpclient-cache-4.2.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/httpcore-4.2.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/httpmime-4.2.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HttpClientUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_codec_1_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/httpclient_4_2_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FetchArticlesUrl.java" afterPath="$PROJECT_DIR$/src/FetchArticlesUrl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FetchTianYaArticles.iml" afterPath="$PROJECT_DIR$/FetchTianYaArticles.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TianYaHotAction.java" afterPath="$PROJECT_DIR$/src/TianYaHotAction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FetchTianYaArticles.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1378200996177" ignored="false" />
+    <file path="/Dummy.txt" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1378274602069" ignored="false" />
     <file path="/TianYaHotAction.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1378274218693" ignored="false" />
-    <file path="/FetchArticlesUrl.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1378274462661" ignored="false" />
-    <file path="/Main.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1378262025835" ignored="false" />
+    <file path="/FetchArticlesUrl.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1378287401065" ignored="false" />
+    <file path="/Main.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1378286595590" ignored="false" />
+    <file path="/TestHttpClient.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1378282972415" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +85,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="48" selection-start="61" selection-end="68" vertical-scroll-proportion="0.0">
+            <state line="6" column="0" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -89,28 +94,38 @@
       <file leaf-file-name="TestMysql.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestMysql.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="14" selection-start="248" selection-end="2065" vertical-scroll-proportion="0.0">
+            <state line="11" column="17" selection-start="195" selection-end="239" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TianYaHotAction.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TianYaHotAction.java">
+      <file leaf-file-name="FetchArticlesUrl.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FetchArticlesUrl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="41" selection-start="312" selection-end="312" vertical-scroll-proportion="0.48913044">
+            <state line="113" column="13" selection-start="3663" selection-end="3663" vertical-scroll-proportion="0.045592707">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3192#3208#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FetchArticlesUrl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FetchArticlesUrl.java">
+      <file leaf-file-name="TianYaHotAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TianYaHotAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="46" column="26" selection-start="1559" selection-end="1625" vertical-scroll-proportion="-3.8461537">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpClientUtil.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HttpClientUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="27" selection-start="455" selection-end="469" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,8 +152,10 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/TestMysql.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/TianYaHotAction.java" />
+        <option value="$PROJECT_DIR$/src/TestHttpClient.java" />
+        <option value="$PROJECT_DIR$/src/HttpClientUtil.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/FetchArticlesUrl.java" />
       </list>
     </option>
@@ -207,20 +224,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FetchTianYaArticles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FetchTianYaArticles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -228,18 +231,25 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="fetchtianyaarticles" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -247,6 +257,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/libs" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -347,7 +358,11 @@
       <created>1378200997934</created>
       <updated>1378200997934</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.1">
+      <created>1378274615292</created>
+      <updated>1378274615292</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -414,7 +429,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.1" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -428,6 +443,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="1" />
+    <MESSAGE value="1.1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -451,20 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="48" selection-start="61" selection-end="68" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestMysql.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="14" selection-start="248" selection-end="2065" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/sql/Statement.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="23" selection-start="439" selection-end="439" vertical-scroll-proportion="0.33152175">
@@ -479,21 +481,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FetchArticlesUrl.java">
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/System.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="42" column="29" selection-start="1642" selection-end="1653" vertical-scroll-proportion="0.33239436">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HttpClientUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="27" selection-start="455" selection-end="469" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestMysql.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="17" selection-start="195" selection-end="239" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/jsoup-1.7.2.jar!/org/jsoup/select/Elements.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="38" selection-start="2832" selection-end="2832" vertical-scroll-proportion="-2.5296052">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TianYaHotAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="41" selection-start="312" selection-end="312" vertical-scroll-proportion="0.48913044">
+        <state line="46" column="26" selection-start="1559" selection-end="1625" vertical-scroll-proportion="-3.8461537">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3192#3208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FetchArticlesUrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="13" selection-start="3663" selection-end="3663" vertical-scroll-proportion="0.045592707">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

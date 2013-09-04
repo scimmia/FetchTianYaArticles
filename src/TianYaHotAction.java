@@ -124,41 +124,21 @@ public class TianYaHotAction {
             Class.forName(driver);
 
             // 连续数据库
-
             Connection conn = DriverManager.getConnection(url, user, password);
-
-            if(!conn.isClosed())
-                System.out.println("Succeeded connecting to the Database!");
 
             // statement用来执行SQL语句
             Statement statement = conn.createStatement();
 
             // 结果集
-            Boolean result = statement.execute(sql);
-
-            System.out.println("-----------------");
-
+            statement.execute(sql);
             conn.close();
 
         } catch(ClassNotFoundException e) {
-
-
-            System.out.println("Sorry,can`t find the Driver!");
             e.printStackTrace();
-
-
         } catch(SQLException e) {
-
-
             e.printStackTrace();
-
-
         } catch(Exception e) {
-
-
             e.printStackTrace();
-
-
         }
     }
 }
