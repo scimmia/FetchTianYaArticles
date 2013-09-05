@@ -64,5 +64,6 @@ public class ReplyFetchUrlThread implements Runnable{
                 e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
             }
         }
+        ReplyUtil.setRunFlag();
     }
 }

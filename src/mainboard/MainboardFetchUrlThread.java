@@ -21,7 +21,7 @@ public class MainboardFetchUrlThread implements Runnable{
 
     long runTime = 3600000;
     int postCountMax = 6000;
-    int sleepTime = 2000;
+    int sleepTime = 500;
 
     @Override
     public void run() {

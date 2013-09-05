@@ -45,5 +45,15 @@ public class ReplyUtil {
         }
     }
 
-
+    public static boolean runFlag = true;
+    static void setRunFlag(){
+        synchronized ("runFlag"){
+            runFlag=false;
+        }
+    }
+    static boolean getRunFlag(){
+        synchronized ("runFlag"){
+            return runFlag;
+        }
+    }
 }

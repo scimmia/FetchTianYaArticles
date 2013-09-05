@@ -1,5 +1,7 @@
 import mainboard.MainboardDealDocThread;
 import mainboard.MainboardFetchUrlThread;
+import reply.ReplyDealDocThread;
+import reply.ReplyFetchUrlThread;
 
 public class Main {
     final static String funinfoDBname = "funinfo";
@@ -14,13 +16,32 @@ public class Main {
 
 //        TianYaMainBorad fetchMainBoradUrl = new TianYaMainBorad("free","http://bbs.tianya.cn/list.jsp?item=free&nextid=1378347396000");
 //        fetchMainBoradUrl.run();
-        testMainBoard();
+
+//        testMainBoard();
+        testReply();
     }
 
     static void testMainBoard(){
+        /*
+        娱乐八卦 free
+        天涯杂谈 funinfo
+        时尚资讯 no11
+        国际观察 worldlook
+        情感天地 feeling
+         */
+        String dbName = "worldlook";
+        MainboardFetchUrlThread mainboardFetchUrlThread = new MainboardFetchUrlThread("http://bbs.tianya.cn/list.jsp?item="+dbName+"&nextid=1375685616000");
+        MainboardDealDocThread mainboardDealDocThread = new MainboardDealDocThread(dbName);
+//        mainboardDealDocThread.run();
+//        mainboardFetchUrlThread.run();
+        new Thread(mainboardFetchUrlThread).start();
+        new Thread(mainboardDealDocThread).start();
+    }
 
-        MainboardFetchUrlThread mainboardFetchUrlThread = new MainboardFetchUrlThread("http://bbs.tianya.cn/list.jsp?item=free&nextid=1375685616000");
-        MainboardDealDocThread mainboardDealDocThread = new MainboardDealDocThread("free");
+    static void testReply(){
+
+        ReplyFetchUrlThread mainboardFetchUrlThread = new ReplyFetchUrlThread("/post-free-1000264-1.shtml");
+        ReplyDealDocThread mainboardDealDocThread = new ReplyDealDocThread("mainboard");
 //        mainboardDealDocThread.run();
 //        mainboardFetchUrlThread.run();
         new Thread(mainboardFetchUrlThread).start();

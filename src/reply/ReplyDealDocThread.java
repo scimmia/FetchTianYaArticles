@@ -54,57 +54,53 @@ public class ReplyDealDocThread implements Runnable {
 
             // statement用来执行SQL语句
 //            Statement statement = conn.createStatement();
-
+            while (ReplyUtil.getRunFlag()){
                 try {
                     HashMap<String,Object> docs = ReplyUtil.removeDocument();
                     if (docs!=null){
                         doc = (Document)docs.get("doc");
+                        String initiatePostId = (String)docs.get("initiatePostId");
 //                    if (doc!=null){
                         Elements replies = doc.select("div.atl-head-reply");
                         for (Element replyTemp : replies) {
                             Elements hrefs = replyTemp.select("a[href]"); //带有href属性的a元素
                             if (hrefs!=null){
                                 switch (hrefs.size()){
-                                    case 4:
-                                        //
-                                        break;
-                                    case 2:
+                                    case 5: {
+                                        //主帖,需update
+                                        Element replyTimeELementUpdate = hrefs.first();
+                                        String replytimeUpdate = replyTimeELementUpdate.attr("replytime");
+                                        if (replytimeUpdate!=null && !replytimeUpdate.isEmpty()){
+                                            //update location set languages = 'zh' where locationid = '12344';
+                                            String updateSql = "update "+this.postType+" set initiateTime = ? where id = ?;";
+                                            System.out.println(updateSql);
+                                            PreparedStatement psUpdate=conn.prepareStatement(updateSql);
+                                            psUpdate.setString(1,replytimeUpdate);
+                                            psUpdate.setString(2,initiatePostId);
+                                            psUpdate.executeUpdate();
+                                        }
+                                    }
+                                    case 2:{
+                                        Element replyTimeELement = hrefs.first();
+                                        String replytime = replyTimeELement.attr("replytime");
+                                        if (replytime!=null && !replytime.isEmpty()){
+                                            Date currentTime = new Date();
+                                            SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+                                            String crawlTime = formatter.format(currentTime);
+                                            String insql = "INSERT INTO "+this.postType+"viewpost (initiatePostId,viewTime,crawlTime) VALUES(?,?,?);";
+                                            System.out.println(insql);
+                                            PreparedStatement ps=conn.prepareStatement(insql);
+                                            ps.setString(1,initiatePostId);
+                                            ps.setString(2,replytime);
+                                            ps.setString(3,crawlTime);
+                                            ps.executeUpdate();
+                                        }
+                                    }
                                         break;
 
                                 }
                             }
-                            if (hrefs!=null && hrefs.size()==4){
-//                    System.out.println(tds);
-                                Element elementTemp = tds.remove(0);
-                                Element tdA = elementTemp.select("a[href]").first();
-                                String postId = tdA.attr("href");
-                                String postTitle = tdA.text();
-                                elementTemp = tds.remove(0);
-                                tdA = elementTemp.select("a[href]").first();
-                                String postAuthor = tdA.text();
-                                elementTemp = tds.remove(0);
-                                int postClick = Integer.parseInt(elementTemp.text());
-                                elementTemp = tds.remove(0);
-                                int postReply = Integer.parseInt(elementTemp.text());
-                                if (postReply>replyMin && postReply<replyMax){
-                                    Date currentTime = new Date();
-                                    SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-                                    String crawlTime = formatter.format(currentTime);
-                                    String insql = "INSERT INTO mainboard (id,title,crawlTime,clickCount,viewCount,type) VALUES(?,?,?,?,?,?);";
-                                    PreparedStatement ps=conn.prepareStatement(insql);
-                                    ps.setString(1,postId);
-                                    ps.setString(2,postTitle);
-                                    ps.setString(3,crawlTime);
-                                    ps.setInt(4,postClick);
-                                    ps.setInt(5,postReply);
-                                    ps.setString(6,postType);
-                                    ps.execute();
-//                                    String sql = String.format("INSERT INTO mainboard (id,title,crawlTime,clickCount,viewCount) VALUES('%s','%s', '%s',%d,%d);",postId,postTitle,crawlTime,postType,postClick,postReply);
-//                                    System.out.println(sql);
-//                                    statement.execute(sql);
 
-                                }
-                            }
                         }
                     }
                     Thread.sleep(sleepTime);
@@ -113,7 +109,7 @@ public class ReplyDealDocThread implements Runnable {
                 } catch (Exception e) {
                     e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
                 }
-
+            }
 
             // 结果集
             conn.close();

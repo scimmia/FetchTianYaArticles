@@ -26,7 +26,7 @@ public class MainboardDealDocThread implements Runnable {
     @Override
     public void run() {
         int replyMax = 5000;
-        int replyMin = 300;
+        int replyMin = 500;
         Document doc;
         // 驱动程序名
         String driver = "com.mysql.jdbc.Driver";
@@ -78,7 +78,7 @@ public class MainboardDealDocThread implements Runnable {
                                     Date currentTime = new Date();
                                     SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
                                     String crawlTime = formatter.format(currentTime);
-                                    String insql = "INSERT INTO mainboard (id,title,crawlTime,clickCount,viewCount,type) VALUES(?,?,?,?,?,?);";
+                                    String insql = "INSERT INTO "+postType+" (id,title,crawlTime,clickCount,viewCount,type) VALUES(?,?,?,?,?,?);";
                                     PreparedStatement ps=conn.prepareStatement(insql);
                                     ps.setString(1,postId);
                                     ps.setString(2,postTitle);
@@ -86,7 +86,7 @@ public class MainboardDealDocThread implements Runnable {
                                     ps.setInt(4, postClick);
                                     ps.setInt(5,postReply);
                                     ps.setString(6, postType);
-                                    ps.execute();
+                                    ps.executeUpdate();
 //                                    String sql = String.format("INSERT INTO mainboard (id,title,crawlTime,clickCount,viewCount) VALUES('%s','%s', '%s',%d,%d);",postId,postTitle,crawlTime,postType,postClick,postReply);
 //                                    System.out.println(sql);
 //                                    statement.execute(sql);
