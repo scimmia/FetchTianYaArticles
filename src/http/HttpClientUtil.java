@@ -1,3 +1,4 @@
+package http;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
