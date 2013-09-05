@@ -17,8 +17,8 @@ public class Main {
 //        TianYaMainBorad fetchMainBoradUrl = new TianYaMainBorad("free","http://bbs.tianya.cn/list.jsp?item=free&nextid=1378347396000");
 //        fetchMainBoradUrl.run();
 
-//        testMainBoard();
-        testReply();
+        testMainBoard();
+//        testReply();
     }
 
     static void testMainBoard(){
@@ -29,22 +29,32 @@ public class Main {
         国际观察 worldlook
         情感天地 feeling
          */
-        String dbName = "worldlook";
-        MainboardFetchUrlThread mainboardFetchUrlThread = new MainboardFetchUrlThread("http://bbs.tianya.cn/list.jsp?item="+dbName+"&nextid=1375685616000");
-        MainboardDealDocThread mainboardDealDocThread = new MainboardDealDocThread(dbName);
+        String dbName = "free";
+        new Thread(new MainboardFetchUrlThread(dbName)).start();
+        new Thread(new MainboardDealDocThread(dbName)).start();
+
+//        MainboardFetchUrlThread mainboardFetchUrlThread = new MainboardFetchUrlThread(dbName);
+//        MainboardDealDocThread mainboardDealDocThread = new MainboardDealDocThread(dbName);
 //        mainboardDealDocThread.run();
 //        mainboardFetchUrlThread.run();
-        new Thread(mainboardFetchUrlThread).start();
-        new Thread(mainboardDealDocThread).start();
+//        new Thread(mainboardFetchUrlThread).start();
+//        new Thread(mainboardDealDocThread).start();
     }
 
     static void testReply(){
-
-        ReplyFetchUrlThread mainboardFetchUrlThread = new ReplyFetchUrlThread("/post-free-1000264-1.shtml");
-        ReplyDealDocThread mainboardDealDocThread = new ReplyDealDocThread("mainboard");
+        /*
+        娱乐八卦 free
+        天涯杂谈 funinfo
+        时尚资讯 no11
+        国际观察 worldlook
+        情感天地 feeling
+         */
+        String dbName = "free";
+//        ReplyFetchUrlThread mainboardFetchUrlThread = new ReplyFetchUrlThread(dbName);
+//        ReplyDealDocThread mainboardDealDocThread = new ReplyDealDocThread(dbName);
 //        mainboardDealDocThread.run();
 //        mainboardFetchUrlThread.run();
-        new Thread(mainboardFetchUrlThread).start();
-        new Thread(mainboardDealDocThread).start();
+        new Thread(new ReplyFetchUrlThread(dbName)).start();
+        new Thread(new ReplyDealDocThread(dbName)).start();
     }
 }

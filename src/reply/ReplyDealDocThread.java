@@ -25,7 +25,7 @@ public class ReplyDealDocThread implements Runnable {
     public ReplyDealDocThread(String postType) {
         this.postType = postType;
     }
-    int sleepTime = 200;
+    int sleepTime = 10;
     int postCountMax = 6000;
     @Override
     public void run() {
@@ -34,7 +34,7 @@ public class ReplyDealDocThread implements Runnable {
         String driver = "com.mysql.jdbc.Driver";
 
         // URL指向要访问的数据库名scutcs
-        String url = "jdbc:mysql://127.0.0.1:3306/testb?useUnicode=true&characterEncoding=UTF-8";
+        String url = "jdbc:mysql://127.0.0.1:3306/tianya"+postType+"?useUnicode=true&characterEncoding=UTF-8";
 
         // MySQL配置时的用户名
         String user = "root";
@@ -54,7 +54,7 @@ public class ReplyDealDocThread implements Runnable {
 
             // statement用来执行SQL语句
 //            Statement statement = conn.createStatement();
-            while (ReplyUtil.getRunFlag()){
+            while (ReplyUtil.getRunFlag() || (!ReplyUtil.isDocsEmpty())){
                 try {
                     HashMap<String,Object> docs = ReplyUtil.removeDocument();
                     if (docs!=null){
@@ -72,8 +72,8 @@ public class ReplyDealDocThread implements Runnable {
                                         String replytimeUpdate = replyTimeELementUpdate.attr("replytime");
                                         if (replytimeUpdate!=null && !replytimeUpdate.isEmpty()){
                                             //update location set languages = 'zh' where locationid = '12344';
-                                            String updateSql = "update "+this.postType+" set initiateTime = ? where id = ?;";
-                                            System.out.println(updateSql);
+                                            String updateSql = "update initiatePost set initiateTime = ? where id = ?;";
+//                                            System.out.println(updateSql);
                                             PreparedStatement psUpdate=conn.prepareStatement(updateSql);
                                             psUpdate.setString(1,replytimeUpdate);
                                             psUpdate.setString(2,initiatePostId);
@@ -87,8 +87,8 @@ public class ReplyDealDocThread implements Runnable {
                                             Date currentTime = new Date();
                                             SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
                                             String crawlTime = formatter.format(currentTime);
-                                            String insql = "INSERT INTO "+this.postType+"viewpost (initiatePostId,viewTime,crawlTime) VALUES(?,?,?);";
-                                            System.out.println(insql);
+                                            String insql = "INSERT INTO viewPost (initiatePostId,viewTime,crawlTime) VALUES(?,?,?);";
+//                                            System.out.println(insql);
                                             PreparedStatement ps=conn.prepareStatement(insql);
                                             ps.setString(1,initiatePostId);
                                             ps.setString(2,replytime);

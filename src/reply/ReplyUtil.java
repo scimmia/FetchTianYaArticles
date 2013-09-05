@@ -30,6 +30,11 @@ public class ReplyUtil {
             }
         }
     }
+    static boolean isDocsEmpty(){
+        synchronized ("replyDocumentLinkedList"){
+            return replyDocumentLinkedList.isEmpty();
+        }
+    }
 
     static String replyUrlToFetch;
     static void setUrlToFetch(String url){

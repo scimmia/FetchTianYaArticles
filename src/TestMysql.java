@@ -97,4 +97,21 @@ return;
 //
 //        }
     }
+
+    class xxx{
+        HashMap<String,String> hashMap = new HashMap<String, String>();
+        void setId(String id){
+            hashMap.put("id",id);
+        }
+        String getId(){
+            return  hashMap.get("id");
+        }
+
+        void setVaule(int num,String sth){
+            hashMap.put(""+num,sth);
+        }
+        String getValue(int num){
+            return hashMap.get(""+num);
+        }
+    }
 }

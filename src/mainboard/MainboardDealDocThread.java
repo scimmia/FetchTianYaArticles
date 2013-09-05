@@ -21,18 +21,18 @@ public class MainboardDealDocThread implements Runnable {
     public MainboardDealDocThread(String postType) {
         this.postType = postType;
     }
-    int sleepTime = 200;
+    int sleepTime = 10;
     int postCountMax = 6000;
     @Override
     public void run() {
-        int replyMax = 5000;
-        int replyMin = 500;
+        int replyMax = 7000;
+        int replyMin = 400;
         Document doc;
         // 驱动程序名
         String driver = "com.mysql.jdbc.Driver";
 
         // URL指向要访问的数据库名scutcs
-        String url = "jdbc:mysql://127.0.0.1:3306/testb?useUnicode=true&characterEncoding=UTF-8";
+        String url = "jdbc:mysql://127.0.0.1:3306/tianya"+postType+"?useUnicode=true&characterEncoding=UTF-8";
 
         // MySQL配置时的用户名
         String user = "root";
@@ -78,7 +78,7 @@ public class MainboardDealDocThread implements Runnable {
                                     Date currentTime = new Date();
                                     SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
                                     String crawlTime = formatter.format(currentTime);
-                                    String insql = "INSERT INTO "+postType+" (id,title,crawlTime,clickCount,viewCount,type) VALUES(?,?,?,?,?,?);";
+                                    String insql = "INSERT INTO initiatePost (id,title,crawlTime,clickCount,viewCount,type) VALUES(?,?,?,?,?,?);";
                                     PreparedStatement ps=conn.prepareStatement(insql);
                                     ps.setString(1,postId);
                                     ps.setString(2,postTitle);
