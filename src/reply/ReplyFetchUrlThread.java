@@ -1,12 +1,11 @@
 package reply;
 
-import http.HttpClientUtil;
+import util.HttpClientUtil;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
 import java.sql.*;
-import java.sql.Date;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
@@ -84,7 +83,7 @@ public class ReplyFetchUrlThread implements Runnable{
                 while ((urlToFetch != null && !urlToFetch.isEmpty()) && currenttime - startTime < runTime){
                     try {
                         System.out.println(String.format("时间\t%tR\t\t%s\t\t",System.currentTimeMillis(),urlToFetch));
-                        String response = HttpClientUtil.getHtmlByUrl("http://bbs.tianya.cn"+urlToFetch);
+                        String response = HttpClientUtil.getHtmlByUrl("util://bbs.tianya.cn"+urlToFetch);
                         if (response != null && !response.equalsIgnoreCase("")){
                             Document doc = Jsoup.parse(response);
 

@@ -1,4 +1,4 @@
-import http.HttpClientUtil;
+import util.HttpClientUtil;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -27,7 +27,7 @@ public class TianYaMainBorad implements Runnable{
     final String regex = "\\\\\\\"";
     /*  example
                 DBName = "funinfo";
-                urlPre = "http://www.tianya200.com/idx/23/";
+                urlPre = "util://www.tianya200.com/idx/23/";
                 urlSuf = "/0.html";
                 startPage = "66";
              */
@@ -122,7 +122,7 @@ public class TianYaMainBorad implements Runnable{
 //            }
 //            Thread.sleep(sleepTime);
 //
-//            String response = http.HttpClientUtil.getHtmlByUrl(urlToFetch);
+//            String response = util.HttpClientUtil.getHtmlByUrl(urlToFetch);
 //            if (response == null || response.equalsIgnoreCase("")){
 //                return;
 //            }
@@ -165,7 +165,7 @@ public class TianYaMainBorad implements Runnable{
 //            }
 //            System.out.println(String.format("运行时间\t%tR\t总条数\t%d\t当前页数%s",System.currentTimeMillis(),totalPost,nextUrlToFetch));
 //
-//            fetchHotActionByPage("http://bbs.tianya.cn"+nextUrlToFetch);
+//            fetchHotActionByPage("util://bbs.tianya.cn"+nextUrlToFetch);
 //        } catch (Exception e) {
 //            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
 //        }
@@ -198,7 +198,7 @@ public class TianYaMainBorad implements Runnable{
 
             System.out.println(String.format("运行时间\t%tR\t总条数\t%d\t当前页数%s",System.currentTimeMillis(),totalPost,nextUrlToFetch));
 
-//            fetchHotActionByPage("http://bbs.tianya.cn"+nextUrlToFetch);
+//            fetchHotActionByPage("util://bbs.tianya.cn"+nextUrlToFetch);
         } catch (Exception e) {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         }
@@ -270,11 +270,11 @@ public class TianYaMainBorad implements Runnable{
 //    int urlCountMax = 6000;
 //    int sleepTime = 100;
 //    int timeOut = 30000;
-//    final String UrlHeader = "http://www.tianya200.com";
+//    final String UrlHeader = "util://www.tianya200.com";
 //    final String regex = "\\\\\\\"";
 //    /*  example
 //                DBName = "funinfo";
-//                urlPre = "http://www.tianya200.com/idx/23/";
+//                urlPre = "util://www.tianya200.com/idx/23/";
 //                urlSuf = "/0.html";
 //                startPage = "66";
 //             */
@@ -332,7 +332,7 @@ public class TianYaMainBorad implements Runnable{
 //
 //    private void fetchHotActionByPage(){
 //        try {
-//            String response = http.HttpClientUtil.getHtmlByUrl(this.urlToFetch);
+//            String response = util.HttpClientUtil.getHtmlByUrl(this.urlToFetch);
 //            if (response == null){
 //                return;
 //            }

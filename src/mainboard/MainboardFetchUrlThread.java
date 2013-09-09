@@ -1,6 +1,6 @@
 package mainboard;
 
-import http.HttpClientUtil;
+import util.HttpClientUtil;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -34,7 +34,7 @@ public class MainboardFetchUrlThread implements Runnable{
         calendar.roll(Calendar.MONTH, false);
         long urlStartTime = calendar.getTimeInMillis();
 
-        String urlToFetch = "http://bbs.tianya.cn/list.jsp?item="+postType+"&nextid="+urlStartTime;
+        String urlToFetch = "util://bbs.tianya.cn/list.jsp?item="+postType+"&nextid="+urlStartTime;
 
         while (MainboardDocUtil.getPostCount() < postCountMax && currenttime - startTime < runTime){
             try {
@@ -49,7 +49,7 @@ public class MainboardFetchUrlThread implements Runnable{
                     if (!nextPage.text().equalsIgnoreCase("下一页")){
                         System.out.println("刷新" + urlToFetch);
                     }else {
-                        urlToFetch = "http://bbs.tianya.cn"+nextUrlToFetch;
+                        urlToFetch = "util://bbs.tianya.cn"+nextUrlToFetch;
                         MainboardDocUtil.addDocument(doc);
                     }
                 }

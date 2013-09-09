@@ -1,4 +1,4 @@
-import http.HttpClientUtil;
+import util.HttpClientUtil;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -27,11 +27,11 @@ public class FetchArticlesUrl implements Runnable{
     int sleepTime = 1000;
     int timeOut = 30000;
     long runTime = 3600000;
-    final String UrlHeader = "http://www.tianya200.com";
+    final String UrlHeader = "util://www.tianya200.com";
     final String regex = "\\\\\\\"";
     /*  example
                 DBName = "funinfo";
-                urlPre = "http://www.tianya200.com/idx/23/";
+                urlPre = "util://www.tianya200.com/idx/23/";
                 urlSuf = "/0.html";
                 startPage = "66";
              */

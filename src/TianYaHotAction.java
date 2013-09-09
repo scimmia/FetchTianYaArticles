@@ -19,12 +19,12 @@ import java.util.regex.Pattern;
  * To change this template use File | Settings | File Templates.
  */
 public class TianYaHotAction {
-    final static String hotActionUrl = "http://bbs.tianya.cn/hotArticle.jsp";
-    final static String hotActionPageUrl = "http://bbs.tianya.cn/hotArticle.jsp?pn=";
+    final static String hotActionUrl = "util://bbs.tianya.cn/hotArticle.jsp";
+    final static String hotActionPageUrl = "util://bbs.tianya.cn/hotArticle.jsp?pn=";
     int pageNumber = 0;
 
     final static String funinfoDBname = "funinfo";
-    final static String funinfoUrlPre = "http://www.tianya200.com/idx/23/";
+    final static String funinfoUrlPre = "util://www.tianya200.com/idx/23/";
     final static String funinfoUrlSuf = "/0.html";
 
     LinkedList<HashMap> hotArticles;

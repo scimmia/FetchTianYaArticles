@@ -2,23 +2,26 @@ import mainboard.MainboardDealDocThread;
 import mainboard.MainboardFetchUrlThread;
 import reply.ReplyDealDocThread;
 import reply.ReplyFetchUrlThread;
+import replynew.FetchUrlThread;
 
 public class Main {
     final static String funinfoDBname = "funinfo";
-    final static String funinfoUrlPre = "http://www.tianya200.com/idx/23/";
+    final static String funinfoUrlPre = "util://www.tianya200.com/idx/23/";
     final static String funinfoUrlSuf = "/0.html";
     public static void main(String[] args) {
-//        System.out.println(http.HttpClientUtil.getHtmlByUrl("http://3g.tianya.cn/bbs/list.jsp?item=funinfo&p=190"));
+//        System.out.println(util.HttpClientUtil.getHtmlByUrl("util://3g.tianya.cn/bbs/list.jsp?item=funinfo&p=190"));
 
 //        FetchArticlesUrl fetchArticlesUrl = new FetchArticlesUrl(funinfoDBname,funinfoUrlPre,funinfoUrlSuf,73);
 //        fetchArticlesUrl.run();
 
 
-//        TianYaMainBorad fetchMainBoradUrl = new TianYaMainBorad("free","http://bbs.tianya.cn/list.jsp?item=free&nextid=1378347396000");
+//        TianYaMainBorad fetchMainBoradUrl = new TianYaMainBorad("free","util://bbs.tianya.cn/list.jsp?item=free&nextid=1378347396000");
 //        fetchMainBoradUrl.run();
 
-        testMainBoard();
+//        testMainBoard();
 //        testReply();
+
+        new FetchUrlThread().start();
     }
 
     static void testMainBoard(){
