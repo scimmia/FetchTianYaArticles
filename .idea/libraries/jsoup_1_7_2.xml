@@ -2,7 +2,6 @@
   <library name="jsoup-1.7.2">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/libs/jsoup-1.7.2.jar!/" />
-      <root url="jar://$PROJECT_DIR$/libs/mysql-connector-java-5.0.5-bin.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
