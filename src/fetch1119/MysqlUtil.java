@@ -72,7 +72,8 @@ public class MysqlUtil implements Global{
         psDelete.setString(1,id);
         psDelete.executeUpdate();
         psDelete.close();
-        close();
+        conn.commit();
+        conn.close();
 
     }
 }
