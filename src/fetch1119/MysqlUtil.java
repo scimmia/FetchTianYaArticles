@@ -48,6 +48,7 @@ public class MysqlUtil implements Global{
     public Connection getConn(String name) throws SQLException {
         String url = preDatabaseUrl+datebaseHeader+name+endDatabaseUrl;
         conn = DriverManager.getConnection(url, user, password);
+        conn.setAutoCommit(false);
         return conn;
     }
     public void close(){

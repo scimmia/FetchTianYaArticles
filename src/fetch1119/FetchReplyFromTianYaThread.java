@@ -35,7 +35,7 @@ public class FetchReplyFromTianYaThread implements Runnable,Global {
                 System.out.println("Succeeded connecting to the Database：" + board);
 //            MainOneOneOneNine.runtime();
 
-            String querySql = "SELECT id FROM initiatePost WHERE title IS NULL ORDER BY crawlTime;";
+            String querySql = "SELECT id FROM initiatePost WHERE title IS NULL ORDER BY crawlTime";
             PreparedStatement psUpdate=conn.prepareStatement(querySql);
             ResultSet rs = psUpdate.executeQuery();
             String initiatePostId = null;

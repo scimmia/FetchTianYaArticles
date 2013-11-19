@@ -7,28 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/mysql-connector-java-5.1.27-bin.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fetch1119/FetchReplyFromTianYaThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/FetchTianYaArticles_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fetch1119/FetchUrlFromTwoZeroZeroThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fetch1119/Global.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fetch1119/HttpClientUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fetch1119/MainOneOneOneNine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fetch1119/MysqlUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fetch1119/SavitchIn.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_27_bin.xml" />
-      <change type="DELETED" beforePath="E:\workspace\IdeaProjects\FetchTianYaArticles\libs\mysql-connector-java-5.0.5-bin.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FetchTianYaArticles.iml" afterPath="$PROJECT_DIR$/FetchTianYaArticles.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/jsoup_1_7_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/jsoup_1_7_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fetch1119/FetchReplyFromTianYaThread.java" afterPath="$PROJECT_DIR$/src/fetch1119/FetchReplyFromTianYaThread.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fetch1119/Global.java" afterPath="$PROJECT_DIR$/src/fetch1119/Global.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fetch1119/MainOneOneOneNine.java" afterPath="$PROJECT_DIR$/src/fetch1119/MainOneOneOneNine.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fetch1119/MysqlUtil.java" afterPath="$PROJECT_DIR$/src/fetch1119/MysqlUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FetchTianYaArticles.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1384823619764" ignored="false" />
+    <file path="/Dummy.txt" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1384843689540" ignored="false" />
     <file path="/TianYaHotAction.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1378274218693" ignored="false" />
     <file path="/FetchArticlesUrl.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1378342478095" ignored="false" />
     <file path="/Main.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1384842294312" ignored="false" />
@@ -48,7 +35,7 @@
     <file path="/fragment.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1384829967671" ignored="false" />
     <file path="/FetchUrlThread.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1378707561838" ignored="false" />
     <file path="$PROJECT_DIR$/../untitled/src/FetchUrlFromTwoZeroZeroThread.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1378704808225" ignored="false" />
-    <file path="/MysqlUtil.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1384839978128" ignored="false" />
+    <file path="/MysqlUtil.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1384844547563" ignored="false" />
     <file path="/Global.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1384839815394" ignored="false" />
     <file path="/FetchUrlFromTwoZeroZeroThread.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1384841045475" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -177,6 +164,21 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/fetch1119/FetchReplyFromTianYaThread.java" line="29" class="fetch1119.FetchReplyFromTianYaThread" package="fetch1119">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
@@ -191,7 +193,16 @@
       <file leaf-file-name="FetchReplyFromTianYaThread.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/fetch1119/FetchReplyFromTianYaThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="136" column="0" selection-start="7399" selection-end="7399" vertical-scroll-proportion="0.6666667">
+            <state line="58" column="4" selection-start="2359" selection-end="2359" vertical-scroll-proportion="0.38418078">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Global.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fetch1119/Global.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="30" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -209,7 +220,7 @@
       <file leaf-file-name="MysqlUtil.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fetch1119/MysqlUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="75" selection-start="1681" selection-end="1681" vertical-scroll-proportion="0.0">
+            <state line="50" column="32" selection-start="1981" selection-end="1981" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -218,16 +229,7 @@
       <file leaf-file-name="MainOneOneOneNine.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fetch1119/MainOneOneOneNine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="7" selection-start="3313" selection-end="3578" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Global.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fetch1119/Global.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="12" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0">
+            <state line="76" column="5" selection-start="3311" selection-end="3562" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -503,7 +505,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="FetchTianYaArticles" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -585,7 +593,11 @@
       <created>1378400392075</created>
       <updated>1378400392075</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2.0">
+      <created>1384843700934</created>
+      <updated>1384843700934</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -598,7 +610,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993232" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3964687" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.49752882" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -661,7 +673,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.0" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -681,6 +693,7 @@
     <MESSAGE value="1.3" />
     <MESSAGE value="1.4" />
     <MESSAGE value="1.5" />
+    <MESSAGE value="2.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -764,20 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fetch1119/Global.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="12" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fetch1119/MysqlUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="75" selection-start="1681" selection-end="1681" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fetch1119/FetchUrlFromTwoZeroZeroThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="0" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0">
@@ -785,16 +784,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/fetch1119/Global.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="30" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fetch1119/MysqlUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="32" selection-start="1981" selection-end="1981" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/fetch1119/MainOneOneOneNine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="7" selection-start="3313" selection-end="3578" vertical-scroll-proportion="0.0">
+        <state line="76" column="5" selection-start="3311" selection-end="3562" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fetch1119/FetchReplyFromTianYaThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="0" selection-start="7399" selection-end="7399" vertical-scroll-proportion="0.6666667">
+        <state line="58" column="4" selection-start="2359" selection-end="2359" vertical-scroll-proportion="0.38418078">
           <folding />
         </state>
       </provider>

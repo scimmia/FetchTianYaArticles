@@ -74,14 +74,14 @@ public class MainOneOneOneNine implements Global {
 
 
     }
-//    static Date oldTIme = new Date();
-//    public static long runtime(){
-//        Date newDate = new Date();
-//        long mm = newDate.getTime() - oldTIme.getTime();
-//        oldTIme = newDate;
-//        System.out.println("runed:"+mm);
-//        return mm;
-//    }
+    static Date oldTIme = new Date();
+    public static long runtime(){
+        Date newDate = new Date();
+        long mm = newDate.getTime() - oldTIme.getTime();
+        oldTIme = newDate;
+        System.out.println("runed:"+mm);
+        return mm;
+    }
 
 //        PropertyConfigurator.configure("./bin/log4j.properties");
 //        new Thread(new FetchUrlFromTwoZeroZeroThread()).start();

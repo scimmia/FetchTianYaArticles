@@ -27,9 +27,9 @@ public interface Global {
 
     String datebaseHeader = "tianyatest";
     String preDatabaseUrl = "jdbc:mysql://127.0.0.1:3306/";
-    String endDatabaseUrl = "?rewriteBatchedStatements=true&useUnicode=true&characterEncoding=UTF-8";
+    String endDatabaseUrl = "?useUnicode=true&characterEncoding=UTF-8";
 
-    String querySql = "SELECT COUNT(id) FROM initiatepost;";
+    String querySql = "SELECT COUNT(id) FROM initiatepost";
     String refetchUpdate = "UPDATE initiatepost SET title = NULL WHERE id = ?";
     String refetchDelete = "DELETE FROM viewpost WHERE initiatePostId = ?";
 
