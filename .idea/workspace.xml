@@ -8,14 +8,11 @@
   <component name="ChangeListManager">
     <list default="true" id="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fetch1119/FetchReplyFromTianYaThread.java" afterPath="$PROJECT_DIR$/src/fetch1119/FetchReplyFromTianYaThread.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fetch1119/FetchUrlFromTwoZeroZeroThread.java" afterPath="$PROJECT_DIR$/src/fetch1119/FetchUrlFromTwoZeroZeroThread.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fetch1119/Global.java" afterPath="$PROJECT_DIR$/src/fetch1119/Global.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fetch1119/MysqlUtil.java" afterPath="$PROJECT_DIR$/src/fetch1119/MysqlUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FetchTianYaArticles.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1384844729459" ignored="false" />
+    <file path="/Dummy.txt" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1384845897498" ignored="false" />
     <file path="/TianYaHotAction.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1378274218693" ignored="false" />
     <file path="/FetchArticlesUrl.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1378342478095" ignored="false" />
     <file path="/Main.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1384842294312" ignored="false" />
@@ -190,10 +187,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FetchReplyFromTianYaThread.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="FetchReplyFromTianYaThread.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/fetch1119/FetchReplyFromTianYaThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="38" selection-start="5010" selection-end="5010" vertical-scroll-proportion="0.0">
+            <state line="137" column="0" selection-start="7445" selection-end="7445" vertical-scroll-proportion="0.7627119">
               <folding />
             </state>
           </provider>
@@ -217,10 +214,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MysqlUtil.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MysqlUtil.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fetch1119/MysqlUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="4" selection-start="1766" selection-end="1766" vertical-scroll-proportion="-0.25141242">
+            <state line="46" column="4" selection-start="1766" selection-end="1766" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -267,8 +264,8 @@
         <option value="$PROJECT_DIR$/src/fetch1119/MainOneOneOneNine.java" />
         <option value="$PROJECT_DIR$/src/fetch1119/Global.java" />
         <option value="$PROJECT_DIR$/src/fetch1119/FetchUrlFromTwoZeroZeroThread.java" />
-        <option value="$PROJECT_DIR$/src/fetch1119/FetchReplyFromTianYaThread.java" />
         <option value="$PROJECT_DIR$/src/fetch1119/MysqlUtil.java" />
+        <option value="$PROJECT_DIR$/src/fetch1119/FetchReplyFromTianYaThread.java" />
       </list>
     </option>
   </component>
@@ -601,14 +598,18 @@
       <created>1384844735340</created>
       <updated>1384844735340</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2.0">
+      <created>1384845901625</created>
+      <updated>1384845901625</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3258427" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3258427" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -802,16 +803,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fetch1119/FetchReplyFromTianYaThread.java">
+    <entry file="file://$PROJECT_DIR$/src/fetch1119/MysqlUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="38" selection-start="5010" selection-end="5010" vertical-scroll-proportion="0.0">
+        <state line="46" column="4" selection-start="1766" selection-end="1766" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fetch1119/MysqlUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/fetch1119/FetchReplyFromTianYaThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="4" selection-start="1766" selection-end="1766" vertical-scroll-proportion="-0.25141242">
+        <state line="137" column="0" selection-start="7445" selection-end="7445" vertical-scroll-proportion="0.7627119">
           <folding />
         </state>
       </provider>
