@@ -99,7 +99,7 @@ public class FetchReplyFromTianYaThread implements Runnable,Global {
                                     }
                                 }
                             }
-//                            MainOneOneOneNine.runtime();
+                            MainOneOneOneNine.runtime();
                             String insetSql = "INSERT INTO viewPost (initiatePostId,viewTime,crawlTime) VALUES ";
                             if (viewTimsList.size()>0){
                                 StringBuilder stringBuilder = new StringBuilder(insetSql);
@@ -133,7 +133,8 @@ public class FetchReplyFromTianYaThread implements Runnable,Global {
                                     ps.addBatch();
                                 }
                                 ps.executeBatch();
-//                                MainOneOneOneNine.runtime();
+                                conn.commit();
+                                MainOneOneOneNine.runtime();
 
 //                                if (!viewTimsList.isEmpty()){
 //                                    stringBuilder.append("('").append(initiatePostId).append("','")

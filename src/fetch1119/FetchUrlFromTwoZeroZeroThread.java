@@ -95,6 +95,7 @@ public class FetchUrlFromTwoZeroZeroThread implements Runnable,Global {
                         }
                     }
                     ps.executeBatch();
+                    conn.commit();
 
                 } catch (Exception e) {
                     logger.error(e);

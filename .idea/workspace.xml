@@ -8,14 +8,14 @@
   <component name="ChangeListManager">
     <list default="true" id="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fetch1119/FetchReplyFromTianYaThread.java" afterPath="$PROJECT_DIR$/src/fetch1119/FetchReplyFromTianYaThread.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fetch1119/FetchUrlFromTwoZeroZeroThread.java" afterPath="$PROJECT_DIR$/src/fetch1119/FetchUrlFromTwoZeroZeroThread.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fetch1119/Global.java" afterPath="$PROJECT_DIR$/src/fetch1119/Global.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fetch1119/MainOneOneOneNine.java" afterPath="$PROJECT_DIR$/src/fetch1119/MainOneOneOneNine.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fetch1119/MysqlUtil.java" afterPath="$PROJECT_DIR$/src/fetch1119/MysqlUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FetchTianYaArticles.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1384843689540" ignored="false" />
+    <file path="/Dummy.txt" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1384844729459" ignored="false" />
     <file path="/TianYaHotAction.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1378274218693" ignored="false" />
     <file path="/FetchArticlesUrl.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1378342478095" ignored="false" />
     <file path="/Main.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1384842294312" ignored="false" />
@@ -29,15 +29,15 @@
     <file path="/ReplyUtil.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1378395646099" ignored="false" />
     <file path="/ReplyDealDocThread.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1378395685600" ignored="false" />
     <file path="/ReplyFetchUrlThread.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1378395060072" ignored="false" />
-    <file path="/FetchReplyFromTianYaThread.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1384841022555" ignored="false" />
+    <file path="/FetchReplyFromTianYaThread.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1384845796360" ignored="false" />
     <file path="$PROJECT_DIR$/../untitled/src/Main.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1378696426106" ignored="false" />
     <file path="$PROJECT_DIR$/../untitled/src/FetchReplyFromTianYaThread.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1378696822455" ignored="false" />
     <file path="/fragment.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1384829967671" ignored="false" />
     <file path="/FetchUrlThread.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1378707561838" ignored="false" />
     <file path="$PROJECT_DIR$/../untitled/src/FetchUrlFromTwoZeroZeroThread.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1378704808225" ignored="false" />
-    <file path="/MysqlUtil.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1384844547563" ignored="false" />
+    <file path="/MysqlUtil.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1384845858690" ignored="false" />
     <file path="/Global.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1384839815394" ignored="false" />
-    <file path="/FetchUrlFromTwoZeroZeroThread.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1384841045475" ignored="false" />
+    <file path="/FetchUrlFromTwoZeroZeroThread.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1384845747578" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,10 +190,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FetchReplyFromTianYaThread.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FetchReplyFromTianYaThread.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fetch1119/FetchReplyFromTianYaThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="4" selection-start="2359" selection-end="2359" vertical-scroll-proportion="0.38418078">
+            <state line="102" column="38" selection-start="5010" selection-end="5010" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -202,7 +202,7 @@
       <file leaf-file-name="Global.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fetch1119/Global.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="30" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0">
+            <state line="20" column="0" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -211,16 +211,16 @@
       <file leaf-file-name="FetchUrlFromTwoZeroZeroThread.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fetch1119/FetchUrlFromTwoZeroZeroThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0">
+            <state line="97" column="34" selection-start="5006" selection-end="5006" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MysqlUtil.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MysqlUtil.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/fetch1119/MysqlUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="32" selection-start="1981" selection-end="1981" vertical-scroll-proportion="0.0">
+            <state line="46" column="4" selection-start="1766" selection-end="1766" vertical-scroll-proportion="-0.25141242">
               <folding />
             </state>
           </provider>
@@ -229,7 +229,7 @@
       <file leaf-file-name="MainOneOneOneNine.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fetch1119/MainOneOneOneNine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="5" selection-start="3311" selection-end="3562" vertical-scroll-proportion="0.0">
+            <state line="63" column="33" selection-start="2887" selection-end="2887" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -263,12 +263,12 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/replynew/FetchUrlThread.java" />
         <option value="$PROJECT_DIR$/src/fetch1119/SavitchIn.java" />
-        <option value="$PROJECT_DIR$/src/fetch1119/FetchUrlFromTwoZeroZeroThread.java" />
         <option value="$PROJECT_DIR$/src/fetch1119/Main.java" />
-        <option value="$PROJECT_DIR$/src/fetch1119/Global.java" />
-        <option value="$PROJECT_DIR$/src/fetch1119/MysqlUtil.java" />
         <option value="$PROJECT_DIR$/src/fetch1119/MainOneOneOneNine.java" />
+        <option value="$PROJECT_DIR$/src/fetch1119/Global.java" />
+        <option value="$PROJECT_DIR$/src/fetch1119/FetchUrlFromTwoZeroZeroThread.java" />
         <option value="$PROJECT_DIR$/src/fetch1119/FetchReplyFromTianYaThread.java" />
+        <option value="$PROJECT_DIR$/src/fetch1119/MysqlUtil.java" />
       </list>
     </option>
   </component>
@@ -597,7 +597,11 @@
       <created>1384843700934</created>
       <updated>1384843700934</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2.0">
+      <created>1384844735340</created>
+      <updated>1384844735340</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -777,37 +781,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fetch1119/FetchUrlFromTwoZeroZeroThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fetch1119/Global.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="30" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fetch1119/MysqlUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="32" selection-start="1981" selection-end="1981" vertical-scroll-proportion="0.0">
+        <state line="20" column="0" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fetch1119/MainOneOneOneNine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="5" selection-start="3311" selection-end="3562" vertical-scroll-proportion="0.0">
+        <state line="63" column="33" selection-start="2887" selection-end="2887" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fetch1119/FetchUrlFromTwoZeroZeroThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="34" selection-start="5006" selection-end="5006" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fetch1119/FetchReplyFromTianYaThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="4" selection-start="2359" selection-end="2359" vertical-scroll-proportion="0.38418078">
+        <state line="102" column="38" selection-start="5010" selection-end="5010" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fetch1119/MysqlUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="4" selection-start="1766" selection-end="1766" vertical-scroll-proportion="-0.25141242">
           <folding />
         </state>
       </provider>

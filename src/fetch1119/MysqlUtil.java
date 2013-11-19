@@ -43,6 +43,7 @@ public class MysqlUtil implements Global{
         }
         s.executeBatch();
         s.close();
+        conn.close();
     }
 
     public Connection getConn(String name) throws SQLException {

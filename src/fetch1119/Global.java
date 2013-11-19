@@ -17,6 +17,7 @@ public interface Global {
         国际观察 worldlook  21
         情感天地 feeling 17
          */
+    String datebaseHeader = "tianyatest";
     String[] boards = {"yule","zatan","shishang","guoji","qinggan"};
     String[] boardsURL200 = {"23","10","18","21","17"};
     int sleepTime = 1000;
@@ -25,12 +26,14 @@ public interface Global {
     String user = "root";
     String password = "1234";
 
-    String datebaseHeader = "tianyatest";
     String preDatabaseUrl = "jdbc:mysql://127.0.0.1:3306/";
     String endDatabaseUrl = "?useUnicode=true&characterEncoding=UTF-8";
 
     String querySql = "SELECT COUNT(id) FROM initiatepost";
     String refetchUpdate = "UPDATE initiatepost SET title = NULL WHERE id = ?";
     String refetchDelete = "DELETE FROM viewpost WHERE initiatePostId = ?";
-
+/*
+   SELECT * from initiatepost WHERE id = '/post-funinfo-4585260-1.shtml'
+    SELECT * from viewpost WHERE initiatePostId = '/post-funinfo-4585260-1.shtml'
+*/
 }
