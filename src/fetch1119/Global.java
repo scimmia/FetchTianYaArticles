@@ -36,4 +36,7 @@ public interface Global {
    SELECT * from initiatepost WHERE id = '/post-funinfo-4585260-1.shtml'
     SELECT * from viewpost WHERE initiatePostId = '/post-funinfo-4585260-1.shtml'
 */
+
+    //m.tianya.cn
+    String basicUrl = "http://m.tianya.cn/bbs/art.jsp?item=%s&id=%s&vu=%s&p=%d";
 }
