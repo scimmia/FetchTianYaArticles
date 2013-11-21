@@ -29,7 +29,7 @@ public class MainOneOneOneNine implements Global {
 //        System.setProperty("http.proxyHost", "127.0.0.1");
 //        System.setProperty("http.proxyPort", "8087");
 
-        System.out.println("请输入抓取类型序号: 1 天涯200抓主贴 2 天涯论坛抓详情 3 初始化数据库 4 删除上次最后一条并继续抓取详情");
+        System.out.println("1119:请输入抓取类型序号: 1 天涯200抓主贴 2 天涯论坛抓详情 3 初始化数据库 4 删除上次最后一条并继续抓取详情");
         int board = SavitchIn.readInt();
 
         switch (board){
