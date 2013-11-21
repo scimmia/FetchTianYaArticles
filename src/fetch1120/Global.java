@@ -50,5 +50,7 @@ public interface Global {
     int minReplyCount = 500;
     int minReplyProportion = 8;
 
-    int saveEveryCount = 2000;
+    int saveEveryCount = 200;
+    int saveReplyEveryCount = 2000;
+    String vu = "84853088886";
 }

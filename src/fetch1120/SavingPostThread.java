@@ -32,7 +32,7 @@ public class SavingPostThread implements Runnable,Global {
     @Override
     public void run() {
         logger = Logger.getLogger("FetchBoardThread");
-        String insertSql = "INSERT INTO initiatePost (id,title,crawlTime,type,clickCount,viewCount) VALUES(?,?,?,?,?,?)";
+        String insertSql = "REPLACE INTO initiatePost (id,title,crawlTime,type,clickCount,viewCount) VALUES(?,?,?,?,?,?)";
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         PreparedStatement ps = null;
         try {
@@ -66,8 +66,6 @@ public class SavingPostThread implements Runnable,Global {
                             connection.commit();
                             i = 0;
                         }
-
-
                     }
                 }
             }
@@ -76,6 +74,12 @@ public class SavingPostThread implements Runnable,Global {
             }
         } catch (SQLException e) {
             e.printStackTrace();
+        }finally {
+            try {
+                connection.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
     }
 }

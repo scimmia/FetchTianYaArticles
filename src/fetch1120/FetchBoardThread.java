@@ -34,7 +34,7 @@ public class FetchBoardThread implements Runnable,Global {
             String url = GlobalUtil.urlQ.poll();
             if (url== null){
                 try {
-                    Thread.sleep(1000);
+                    Thread.sleep(300);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -55,6 +55,6 @@ public class FetchBoardThread implements Runnable,Global {
             }
 
         }
-//        httpClient.getConnectionManager().shutdown();
+        httpClient.getConnectionManager().shutdown();
     }
 }

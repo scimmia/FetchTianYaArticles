@@ -102,7 +102,7 @@ public class FetchItemUrlThread implements Runnable,Global {
         return result;
     }
     public void deal(String id,String title,int replyCount,int clickCount){
-        logger.info(id+'\t'+title+'\t'+replyCount+'\t'+clickCount);
+//        logger.info(id+'\t'+title+'\t'+replyCount+'\t'+clickCount);
         try {
             GlobalUtil.postQ.put(new PostStruct(id,title,replyCount,clickCount));
         } catch (InterruptedException e) {
