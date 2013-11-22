@@ -7,17 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fetch1120/FetchReplyThread.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fetch1120/FetchBoardThread.java" afterPath="$PROJECT_DIR$/src/fetch1120/FetchBoardThread.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fetch1120/FetchItemUrlThread.java" afterPath="$PROJECT_DIR$/src/fetch1120/FetchItemUrlThread.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fetch1120/Global.java" afterPath="$PROJECT_DIR$/src/fetch1120/Global.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fetch1120/MainOneOneOneNine.java" afterPath="$PROJECT_DIR$/src/fetch1120/MainOneOneOneNine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fetch1120/SavingPostThread.java" afterPath="$PROJECT_DIR$/src/fetch1120/SavingPostThread.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FetchTianYaArticles.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1385018552598" ignored="false" />
+    <file path="/Dummy.txt" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1385026234888" ignored="false" />
     <file path="/TianYaHotAction.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1378274218693" ignored="false" />
     <file path="/FetchArticlesUrl.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1378342478095" ignored="false" />
     <file path="/Main.java" changelist="63b7b5de-74c8-492b-823b-e1a26a7fe0d0" time="1384842294312" ignored="false" />
@@ -686,7 +680,11 @@
       <created>1385018558782</created>
       <updated>1385018558782</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="2.1">
+      <created>1385026244550</created>
+      <updated>1385026244550</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
